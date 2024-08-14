@@ -3,6 +3,7 @@ import menus from "./menus.json"
 
 export default function expandMenus (e, selection) {
   const menu = document.querySelector(".menus-container");
+  let menuContent = document.querySelector(".menu-content");
 
   // first expand and scroll to it to the top
   if (menu.classList.contains("collapsed")) {
