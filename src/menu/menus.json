@@ -1,0 +1,70 @@
+{
+  "lunch": [
+      {
+          "dish": "Wild Abalone",
+          "description": "wild abalone, young octopus, raw scallops, seaweed, aged vinegar",
+          "price": "60"
+      },
+      {
+          "dish": "Smoked Eel",
+          "description": "sea eel, sea cucumber, walnuts, cod roe, ",
+          "price": "50"
+      }
+  ],
+  "dinner": [
+      {
+          "dish": "Bone Marrow Pasta",
+          "description": "Mud crab, pinstriped peanuts, sour koji butter",
+          "price": "120"
+      },
+      {
+          "dish": "Confit Pig Jowl",
+          "description": "Maitake, Southern squid, hispi sunchokes, salami, garum",
+          "price": "140"
+      }
+  ],
+  "brunch": [
+      {
+          "dish": "Bone Marrow Pasta",
+          "description": "Mud crab, pinstriped peanuts, sour koji butter",
+          "price": "120"
+      },
+      {
+          "dish": "Wild Abalone",
+          "description": "wild abalone, young octopus, raw scallops, seaweed, aged vinegar",
+          "price": "60"
+      },
+      {
+          "dish": "Smoked Eel",
+          "description": "sea eel, sea cucumber, walnuts, cod roe, ",
+          "price": "50"
+      },
+      {
+          "dish": "Confit Pig Jowl",
+          "description": "Maitake, Southern squid, hispi sunchokes, salami, garum",
+          "price": "140"
+      },
+      {
+          "dish": "Bone Marrow Pasta",
+          "description": "Mud crab, pinstriped peanuts, sour koji butter",
+          "price": "120"
+      },
+      {
+          "dish": "Confit Pig Jowl",
+          "description": "Maitake, Southern squid, hispi sunchokes, salami, garum",
+          "price": "140"
+      }
+  ],
+  "drinks": [
+      {
+          "dish": "Bone Marrow Pasta",
+          "description": "Mud crab, pinstriped peanuts, sour koji butter",
+          "price": "120"
+      },
+      {
+          "dish": "Confit Pig Jowl",
+          "description": "Maitake, Southern squid, hispi sunchokes, salami, garum",
+          "price": "140"
+      }
+  ]
+}

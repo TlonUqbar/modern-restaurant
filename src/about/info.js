@@ -1,0 +1,66 @@
+export default function info (container) {
+  const bottom = container;
+  const section = document.createElement ("section");
+  const details = document.createElement("div");
+  const story = document.createElement("div");
+  const h1 = document.createElement("h1");
+  const h3a  = document.createElement("h3");
+  const h3b  = document.createElement("h3");
+  const storyText = document.createElement("div");
+  const location = document.createElement("div");
+  const hours = document.createElement("div");
+  const pTag1 = document.createElement("p");
+  const pTag2 = document.createElement("p");
+  const pTag3 = document.createElement("p");
+  const pTag4 = document.createElement("p");
+  const pTag5 = document.createElement("p");
+  const pTag6 = document.createElement("p");
+  const pTag7 = document.createElement("p");
+  const pTag8 = document.createElement("p");
+  const brk = document.createElement("br");
+
+  section.setAttribute("id", "info");
+  details.className = "details";
+  story.className = "story";
+  h1.className = "title";
+  storyText.className = "story-text";
+  location.className = "about-location";
+  hours.className = "about-hours";
+  h1.textContent = "Modern Restaurant";
+  h3a.textContent = "Location";
+  h3b.textContent = "Hours";
+  pTag1.textContent = "678 Market Street";
+  pTag2.textContent = "San Francisco, CA";
+  pTag3.textContent = "415-678-6435";
+  pTag4.textContent = "Monday to Friday";
+  pTag4.className = "days";
+  pTag5.textContent = "5 pm to 10 pm";
+  pTag5.className = "hours";
+  pTag6.textContent = "Saturday and Sunday";
+  pTag6.className = "days";
+  pTag7.textContent = "11 am to 2 pm";
+  pTag7.className = "hours";
+  pTag8.textContent = "5 pm to 11 pm";
+  pTag8.className = "hours";
+
+  bottom.append(section);
+  section.append(details);
+  details.append(story);
+  story.append(h1);
+  story.append(storyText);
+  storyText.append(location);
+  location.append(h3a);
+  location.append(pTag1);
+  location.append(pTag2);
+  location.append(pTag3);
+  storyText.append(hours);
+  hours.append(h3b);
+  hours.append(pTag4);
+  hours.append(pTag5);
+  hours.append(pTag6);
+  hours.append(pTag7);
+  hours.append(brk);
+  brk.insertAdjacentText("afterend", "and");
+  hours.append(pTag8);
+  
+}
