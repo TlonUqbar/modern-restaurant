@@ -2,10 +2,11 @@ import facebook24 from '../facebook-24.svg';
 import instagram24 from '../instagram-24.svg';
 import twitter24 from "../twitter-circle-24.svg";
 import tiktok24 from "../tiktok-24.svg";
+import { homePage } from '../home/home-page';
+import menuPage from '../menu/menu-page';
+import aboutPage from '../about/about-page';
 
-
-
-export default function addNavigation() {
+export function addNavigation() {
   createNav();
   createSliderMenu();
 }
@@ -101,4 +102,37 @@ function slide (e) {
   navContent.classList.toggle('showNav');
   navContent.classList.remove('hidden');
   btnNav.classList.toggle('animated');
+}
+
+export function hamburgerMenu(){
+
+  const homeBtn = document.querySelector("#homeBtn");
+  const menuBtn = document.querySelector("#menuBtn");
+  const aboutBtn = document.querySelector("#aboutBtn");
+  const btnNav = document.querySelector('.btn-nav');
+  const navContent = document.querySelector('.nav-content');
+  
+  
+  const action = (e) => {
+    e.preventDefault();
+  
+    if (navContent.classList.contains("initial")) {
+      navContent.classList.add('showNav');
+      navContent.classList.remove("initial");
+    }
+  
+    navContent.classList.toggle('hideNav');
+    navContent.classList.toggle('showNav');
+    navContent.classList.remove('hidden');
+    btnNav.classList.toggle('animated');
+  }
+  
+  homeBtn.addEventListener("click", () => {  homePage()  }) 
+  menuBtn.addEventListener("click", () => { menuPage()  })
+  aboutBtn.addEventListener("click", () => { aboutPage() }) 
+  btnNav.addEventListener('click', (e) => action(e) );
+  homeBtn.addEventListener("click", (e) => action(e));
+  menuBtn.addEventListener("click", (e) => action(e));  
+  aboutBtn.addEventListener("click", (e) => action(e))
+
 }
