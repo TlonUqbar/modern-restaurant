@@ -1,70 +1,130 @@
 {
   "lunch": [
       {
-          "dish": "Wild Abalone",
-          "description": "wild abalone, young octopus, raw scallops, seaweed, aged vinegar",
-          "price": "60"
+          "dish": "Pork Croquettes",
+          "description": "Bechamel, Bonito, Chives",
+          "price": "30"
       },
       {
-          "dish": "Smoked Eel",
-          "description": "sea eel, sea cucumber, walnuts, cod roe, ",
-          "price": "50"
-      }
+          "dish": "Pork Ramen",
+          "description": "Pork Belly, Pork Shoulder, Slow Poached Egg",
+          "price": "22"
+      },
+      {
+        "dish": "Crispy Lamb Ribs",
+        "description": "Chilli Yogurt, Tingly Salt, Cilantro",
+        "price": "34"
+    },
+    {
+        "dish": "Stripped Bass",
+        "description": "Stripped Bass, Green Pistachio Mole, Shallot, Fava Beans, Watercress",
+        "price": "42"
+    },
+    {
+        "dish": "Bluefin Crudo",
+        "description": "Bluefin Tuna, Heart of Palm Juice, Pico de Gallo",
+        "price": "30"
+    },
+    {
+        "dish": "Little Gem Salad",
+        "description": "Pepita Vinaigrette, Avocado, Sungold Tomato",
+        "price": "20"
+    }
   ],
   "dinner": [
-      {
-          "dish": "Bone Marrow Pasta",
-          "description": "Mud crab, pinstriped peanuts, sour koji butter",
-          "price": "120"
-      },
-      {
-          "dish": "Confit Pig Jowl",
-          "description": "Maitake, Southern squid, hispi sunchokes, salami, garum",
-          "price": "140"
-      }
+    {
+        "dish": "Bone Marrow Pasta",
+        "description": "Mud crab, pinstriped peanuts, sour koji butter",
+        "price": "120"
+    },
+    {
+        "dish": "Wild Abalone",
+        "description": "wild abalone, young octopus, raw scallops, seaweed, aged vinegar",
+        "price": "60"
+    },
+    {
+        "dish": "Smoked Eel",
+        "description": "sea eel, sea cucumber, walnuts, cod roe, ",
+        "price": "50"
+    },
+    {
+        "dish": "Confit Pig Jowl",
+        "description": "Maitake, Southern squid, hispi sunchokes, salami, garum",
+        "price": "140"
+    },
+    {
+        "dish": "Grilled Wagyu Skirt Stake",
+        "description": "Green Peppercor, Perilla, Tare",
+        "price": "120"
+    },
+    {
+        "dish": "Smoked Prime Ribe",
+        "description": "Au Jus, Horseradish - Subject to availability",
+        "price": "140"
+    }
   ],
   "brunch": [
       {
-          "dish": "Bone Marrow Pasta",
-          "description": "Mud crab, pinstriped peanuts, sour koji butter",
-          "price": "120"
+          "dish": "Avocado Toast",
+          "description": "Sourdough Bread, Avocado, Baby Arugula, Tomato, and Pickled Onion",
+          "price": "20"
       },
       {
-          "dish": "Wild Abalone",
-          "description": "wild abalone, young octopus, raw scallops, seaweed, aged vinegar",
-          "price": "60"
+          "dish": "Breakfast Poutine",
+          "description": "French Fries, Scrambled Eggs, Cheese, Pork Sausage, Peppers, Onions, Sour Cream, Pico de Gallo.",
+          "price": "30"
       },
       {
-          "dish": "Smoked Eel",
-          "description": "sea eel, sea cucumber, walnuts, cod roe, ",
-          "price": "50"
+          "dish": "BB Sliders",
+          "description": "Country Biscuits, Gravy, Jack Cheese, Scrambled Eggs - Bacon, Sausage, or Ham",
+          "price": "25"
       },
       {
-          "dish": "Confit Pig Jowl",
-          "description": "Maitake, Southern squid, hispi sunchokes, salami, garum",
+          "dish": "Shrimp Bruschetta",
+          "description": "Sautéed Shrimp, Cherry Tomatoes, Basil, Feta, Shallots, White Wine. Rosemary Sourdough Bread",
           "price": "140"
       },
       {
-          "dish": "Bone Marrow Pasta",
-          "description": "Mud crab, pinstriped peanuts, sour koji butter",
+          "dish": "Chicken & Waffles",
+          "description": "Country Fried Chicken, Waffles, Gravy, Syrup",
           "price": "120"
-      },
-      {
-          "dish": "Confit Pig Jowl",
-          "description": "Maitake, Southern squid, hispi sunchokes, salami, garum",
-          "price": "140"
       }
   ],
   "drinks": [
       {
-          "dish": "Bone Marrow Pasta",
-          "description": "Mud crab, pinstriped peanuts, sour koji butter",
-          "price": "120"
+          "dish": "NSFW Spritz",
+          "description": "Sour Vodka, Passionfruit, Vanilla, Bubbles",
+          "price": "21"
       },
       {
-          "dish": "Confit Pig Jowl",
-          "description": "Maitake, Southern squid, hispi sunchokes, salami, garum",
-          "price": "140"
-      }
+          "dish": "Middle School Crush",
+          "description": "Midori, Svol Aquavit, Aloe Vera Liquer, Sugarcane, Lime",
+          "price": "25"
+      },
+      {
+        "dish": "Spicy Margarita",
+        "description": "Codigo Blanco, Dry Curacao, Gochujang, Lime",
+        "price": "21"
+    },
+    {
+        "dish": "Tamari Old Fashioned",
+        "description": "Old Forester Bourbon, Black Sugar, Tamari, Bitters",
+        "price": "25"
+    },
+    {
+        "dish": "Doctor's Order",
+        "description": "Carrot, Ginger, Lemon, Honey",
+        "price": "21"
+    },
+    {
+        "dish": "Lager Orion",
+        "description": "Okinawa",
+        "price": "18"
+    },
+    {
+      "dish": "IPA Goose Island",
+      "description": "Chicago",
+      "price": "14"
+    }
   ]
 }
